@@ -85,10 +85,10 @@ h3 {
 }
 
 .mobile-menu {
-    display: none;
+    display: none; 
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 60px; 
     right: 20px;
     background-color: #ffffff;
     border: 1px solid #000;
@@ -97,9 +97,14 @@ h3 {
     text-align: center;
 }
 
+.mobile-menu.visible {
+    display: flex;
+
 .mobile-menu a {
     padding: 10px 0;
     font-size: 18px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .otsikko {

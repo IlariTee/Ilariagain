@@ -67,6 +67,11 @@ h3 {
 
 }
 
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
 .hampurilainen a {
     display: inline-block;
     padding: 10px;

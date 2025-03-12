@@ -81,20 +81,16 @@ a:visited {
 
 .valikkopainike {
     display: none;
-    cursor: pointer;
     font-size: 36px;
-    color: black;
+    cursor: pointer;
     padding: 10px;
-    position: absolute;
-    right: 20px;
-
 }
 
 .mobile-menu {
-    display: none; 
+    display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px; 
+    top: 60px;
     right: 20px;
     background-color: #ffffff;
     border: 1px solid #000;
@@ -105,13 +101,14 @@ a:visited {
 
 .mobile-menu.visible {
     display: flex;
-
+}
 .mobile-menu a {
     padding: 10px 0;
     font-size: 18px;
     text-decoration: none;
     color: inherit;
 }
+
 
 .otsikko {
     text-align: center;
@@ -253,8 +250,13 @@ a {
         display: block;
     }
 
+
     .mobile-menu {
         display: none;
+    }
+
+     .mobile-menu.visible {
+        display: flex;
     }
 
      .contact-container .otsikko h4 {

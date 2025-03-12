@@ -118,7 +118,7 @@ a:visited {
     margin-top: 15vh;
 }
 
-.otsikko h4 {
+.contact-container .otsikko h4 {
     font-family: Space mono;
     font-size: 5vw;
     color: black;
@@ -221,12 +221,15 @@ a {
         text-align: center;
     }
 
+ 
+
     .linkit {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 20px;
+        width: 40px;
     }
 
     .discordi,
@@ -253,6 +256,11 @@ a {
     .mobile-menu {
         display: none;
     }
+
+     .contact-container .otsikko h4 {
+        font-size: 5vw; 
+        margin-top: 30vh;
+    }
 }
 
 @media (max-width: 480px) {
@@ -278,6 +286,7 @@ h5 {
     padding: 10px;
 }
 
+    
 
 .logo {
     position: absolute;

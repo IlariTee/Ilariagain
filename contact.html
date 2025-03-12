@@ -62,6 +62,13 @@
     </div>
 
     <script>
+        
+function toggleMenu() {
+    const mobileMenu = document.querySelector('.mobile-menu');
+    mobileMenu.classList.toggle('visible');
+}
+
+        
         const menuIcon = document.getElementById("valikko");
         const mobileMenu = document.createElement("div");
         mobileMenu.classList.add("mobile-menu");

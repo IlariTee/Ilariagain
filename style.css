@@ -151,7 +151,9 @@ a {
 }
 
 .about-container {
-    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
     text-align: center;
 }
 
@@ -160,7 +162,7 @@ a {
         line-height: 1.6;
         margin: 20px auto;
         width: 90%;
-        max-width; 800px;
+        max-width: 800px;
     }
 
 

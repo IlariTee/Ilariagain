@@ -72,27 +72,23 @@ a:visited {
 
 
 .otsikko {
-    text-align: center;
-    margin-top: 0;
-    font-size: 5vw;
-    margin-bottom: 20px;
-}
-
-.contact-container .otsikko h4 {
+     margin: 0;
+    font-size: 5vw;  
     font-family: "Space mono";
-    font-size: 3vw;
     color: black;
     text-align: center;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;  
+
+
 
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;   
     height: 100vh;
     text-align: center;
+    padding-top: 20vh;
 }
 
 p {

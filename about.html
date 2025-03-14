@@ -1,57 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
-
     <title>About</title>
-
 </head>
+<body>
+    <div class="logo">
+        <a href="index.html">
+            <img id="logo" src="logo2.png" alt="logo">
+        </a>
+    </div>
 
-<div class="logo">
-    <a href="index.html">
-        <img id="logo" src="logo2.png" alt="logo">
-    </a>
-</div>
+    <div class="desktop-nav">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
 
-<div class="hampurilainen">
-    <a href="about.html">
-        <p>About</p>
-    </a>
-    <a href="contact.html">
-        <p>Contact</p>
-    </a>
-<div class="valikkopainike" onclick="toggleMenu()">☰</div>
-<div class="mobile-menu">
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</div>
-    
-</div>
+    <div class="mobile-nav">
+        <select class="mobile-menu-select" onchange="location = this.value;">
+            <option value="#">Menu</option>
+            <option value="about.html">About</option>
+            <option value="contact.html">Contact</option>
+        </select>
+    </div>
 
-<div class="about-container">
-<h5>Welcome! I’m Ilari Tikkakoski, a logistic worker with a diverse professional background. I have over five years
-    of experience in sales with products ranging from kitchens and logistic services to roof renovations. After spending
-    more
-    than 20 years immersing myself in all things technology, I decided to make my passion into my profession which led
-    me into pursuing a degree in Business Information Technology, continuing my
-    learning journey at the young age of 29.
+    <div class="about-container">
+        <h5>Welcome! I’m Ilari Tikkakoski, a logistic worker with a diverse professional background. I have over five years
+            of experience in sales with products ranging from kitchens and logistic services to roof renovations. After spending
+            more than 20 years immersing myself in all things technology, I decided to make my passion into my profession which led
+            me into pursuing a degree in Business Information Technology, continuing my
+            learning journey at the young age of 29.
 
-    I have a genuine curiosity on learning new things and enjoy trying out new hobbies and
-    activities. I thrive on a good conversation and meeting new people whether at work, while playing games or during
-    workouts. <br>Please feel free to be in touch!
-</h5>
-</div>
-
-
-    <script>
-        function toggleMenu() {
-    const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu.classList.toggle('visible');
-}
-    </script>
+            I have a genuine curiosity on learning new things and enjoy trying out new hobbies and
+            activities. I thrive on a good conversation and meeting new people whether at work, while playing games or during
+            workouts. <br>Please feel free to be in touch!
+        </h5>
+    </div>
+</body>
+</html>

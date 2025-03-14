@@ -250,8 +250,10 @@ a {
     .discordi,
     .emaili,
     .linkkari {
+        justify-content: center;
         display: flex;
         margin: 10px 0;
+        flex-wrap: nowrap;
 
     }
 

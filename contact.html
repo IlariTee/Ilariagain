@@ -1,47 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+
     <title>Contact</title>
+
 </head>
+
 <body>
+
+
     <div class="logo">
-        <a href="index.html">
+        <a href="sivu.html">
             <img id="logo" src="logo2.png" alt="logo">
         </a>
     </div>
 
-    <div class="desktop-nav">
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
+    <div class="hampurilainen">
+        <a href="about.html">
+            <p>About</p>
+        </a>
+        <a href="contact.html">
+            <p>Contact</p>
+        </a>
 
-    <div class="mobile-nav">
-        <select class="mobile-menu-select" onchange="location = this.value;">
-            <option value="#">Menu</option>
-            <option value="about.html">About</option>
-            <option value="contact.html">Contact</option>
-        </select>
-    </div>
-
-    <div class="contact-container">
-        <div class="otsikko">
-            <h4>Contact</h4>
-        </div>
-        <p>Feel free to reach out to me through these channels:</p>
-        <div class="linkit">
-            <a class="discordi" href="https://discord.gg/yourdiscordlink">
-                <img id="discord" src="discordtest.png" alt="Discord">
-            </a>
-            <a class="emaili" href="mailto:your.email@example.com">
-                <img id="email" src="emailtest.png" alt="Email">
-            </a>
-            <a class="linkkari" href="https://www.linkedin.com/in/yourlinkedinprofile">
-                <img id="linkedin" src="linkedintest.png" alt="LinkedIn">
-            </a>
+        <div class="valikkopainike" id="valikko">
+            &#9776;
         </div>
     </div>
+
+
+    <div class="otsikko">
+        <h4>Hit me up!</h4>
+    </div>
+
+    <div class="linkit">
+        <div class="discordi">
+            <a href="https://discordapp.com/users/ilkkabest" target="_blank">
+                <img id="discord" src="discord.png" alt="discord">
+            </a>
+        </div>
+
+        <div class="emaili">
+            <a href="mailto:ilari.tikkakoski@gmail.com">
+                <img id="email" src="email.png">
+            </a>
+        </div>
+
+        <div class="linkkari">
+            <a href="https://www.linkedin.com/in/ilaritikkis/" target="_blank">
+                <img id="linkedin" src="linkedin.png">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        const menuIcon = document.getElementById("valikko");
+        const mobileMenu = document.createElement("div");
+        mobileMenu.classList.add("mobile-menu");
+
+        mobileMenu.innerHTML = `
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+`;
+        document.body.appendChild(mobilemenu);
+
+        menuIcon.addEventListener("click", function () {
+            mobileMenu.style.display = (mobilemenu.style.display === "flex") ? "none" : "flex";
+
+        });
+    </script>
+
+
+
 </body>
-</html>

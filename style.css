@@ -74,6 +74,8 @@ a:visited {
 .otsikko {
     text-align: center;
     margin-top: 0;
+    font-size: 5vw;
+    margin-bottom: 20px;
 }
 
 .contact-container .otsikko h4 {

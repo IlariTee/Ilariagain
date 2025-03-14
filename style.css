@@ -13,6 +13,21 @@ body {
     padding: 20px;
 }
 
+.hampurilainen {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.hampurilainen a {
+    display: inline-block;
+    padding: 10px;
+
+}
+
 .tekstit {
     display: flex;
     flex-direction: column;
@@ -157,16 +172,6 @@ h5 {
     height: auto;
 }
 
-.desktop-nav {
-    display: flex;
-    position: absolute;
-    top: 20px; 
-    right: 20px; 
-}
-
-.desktop-nav a {
-    margin-left: 15px;
-}
 
 @media (max-width: 768px) {
     h1, h2, h3 {
@@ -207,14 +212,6 @@ h5 {
     .audio-player img {
         width: 40px;
         height: auto;
-    }
-
-    .mobile-nav {
-        display: block; 
-    }
-
-    .desktop-nav {
-        display: none; 
     }
 
     .contact-container .otsikko h4 {

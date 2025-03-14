@@ -160,9 +160,9 @@ a {
 }
 
     h5 {
-        font-size: 2vw;
-        line-height: 1.6;
-        margin: 20px auto;
+        font-size: 4vw;
+        line-height: 1.5;
+        margin: 10vh 5vw;
         width: 90%;
         max-width: 800px;
     }
@@ -234,6 +234,11 @@ a {
     p {
         font-size: 5vw;
         text-align: center;
+    }
+
+    h5 {
+        font-size: 5vw;
+        margin: 6vh 3vw;
     }
 
  

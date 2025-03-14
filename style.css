@@ -68,28 +68,18 @@ a:visited {
 }
 
 
-
-
-
 .otsikko {
-    margin: 0;
-    font-size: 5vw;  
-    font-family: "Space mono";
-    color: black;
     text-align: center;
-    margin-bottom: 20px;  
-
-
-
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;   
-    height: 100vh;
-    text-align: center;
-    padding-top: 20vh;
+    margin-top: 15vh;
 }
+
+.otsikko h4 {
+    font-family: Space mono;
+    font-size: 5vw;
+    color: black;
+}
+
+
 
 p {
     font-family: Inter;
@@ -134,6 +124,30 @@ h5 {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    margin-top: vh;
+
+
+}
+
+.discordi,
+.emaili,
+.linkkari {
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+
+#discord {
+    width: 90px;
+    height: auto;
+}
+
+
+
+#linkedin {
+    width: 75px;
+    height: auto;
 }
 
 .logo {
@@ -147,15 +161,7 @@ h5 {
     height: auto;
 }
 
-.discordi, .emaili, .linkkari {
-    display: inline-block;
-    margin: 0 15px;
-}
 
-#discord, #email, #linkedin {
-    width: 80px;  
-    height: auto;
-}
 
 @media (max-width: 768px) {
     h1, h2, h3 {
@@ -165,6 +171,10 @@ h5 {
 
     .tekstit {
         align-items: center;
+    }
+
+    .otsikko h4 {
+        font-size: 6vW;
     }
 
     p {
@@ -177,20 +187,24 @@ h5 {
         margin: 6vh 3vw;
     }
 
-    .linkit {
+   .linkit {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px;
-        width: 40px;
     }
 
-    .discordi, .emaili, .linkkari {
-        justify-content: center;
-        display: flex;
+    .discordi,
+    .emaili,
+    .linkkari {
+        display: block;
         margin: 10px 0;
-        flex-wrap: nowrap;
+
+    }
+
+    .hampurilainen a {
+        display: none;
     }
 
     .audio-player img {
